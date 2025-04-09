@@ -19,6 +19,7 @@
   - Leveraged Agile methodology, allowing for flexibility and sponsor collaboration.
 
 <h2>📖 I'm currently learning:</h2>
+
 - <b>Parallel Computing</b>
   - Using OpenMP to quantify the benefits of multithreading/multiprocessing
   - Capitalizing on the efficiency of parallelization via Monte Carlo trials to assist in determining the probability of an event occurring using random parameters through collection of observed probabilities.
