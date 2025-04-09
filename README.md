@@ -1,4 +1,10 @@
 ## Hi there 👋
+<h1>Hi, I'm Tyrell! <br/>
+
+<h2>👨‍💻 Software Development Projects:</h2>
+
+- <b>Cloud-Based Trading Strategies for Individual Investors</b>
+  - [Developing a Cloud-Based Web Application](https://github.com/joshmadakor1/Algorithms-Practice)
 
 <!--
 **veedubb/veedubb** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
