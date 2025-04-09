@@ -26,7 +26,7 @@
   - Determining theoretical maximum speedup that can be achieved on a given program.
 - <b>Cloud Application Development</b>
   - Using Google App Engine to deploy cloud-based applications.
-  - Developing RESTful APIs meeting the specifications of the API documentation.
+  - Developing RESTful APIs meeting the specifications of provided API documentation.
 
 <!--
 **veedubb/veedubb** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
