@@ -1,5 +1,7 @@
 <h1>Hi, I'm Tyrell!</h1><br/>
 
+<h2>I am a <a href="https://github.com/veedubb">Programmer</a> and <a href="https://www.linkedin.com/in/tverley/">Software Development Professional</a>.
+
 <h2>👨‍💻 Software Development Projects:</h2>
 
 - <b>Cloud-Based Trading Strategies for Individual Investors (NDA)</b>
