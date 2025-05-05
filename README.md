@@ -34,8 +34,8 @@
   - OAuth 2.0 integration to RESTful APIs.
 
  <h2>📖 Projects:</h2>
- - <b>Cloud-Based Trading Strategies for Individual Investors (NDA)</b>
- - <a href="https://github.com/veedubb/cs361-microservice"><b>Movies Microservice</b></a>
+- <b>Cloud-Based Trading Strategies for Individual Investors (NDA)</b>
+- <a href="https://github.com/veedubb/cs361-microservice"><b>Movies Microservice</b></a>
 
 <!--
 **veedubb/veedubb** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
