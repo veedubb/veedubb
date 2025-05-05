@@ -3,34 +3,31 @@
   This project required me to sign an NDA, so I am unable to share the repository. However, I can speak to higher level details about the project.
 </p>
 <h2>Technologies Used:</h2>
-- Front End:
+
+- <b>Front End</b>
   - React
   - Node
-- Back End:
+- <b> Back End </b>
   - Flask
   - MySQL
-- Notable Libraries:
+  - MongoDB
+- <b>Critical Libraries</b>
   - yfinance
-    - Historical Stock Data.
   - PyMoo
-    - Multi-Objective Search.
-    - Creation of inherited abstract classes.
-    - Optimization and minimization/maximization of results and result parameters.
   - backtesting.py
-    - Used in conjunction with yfinance and PyMoo to test trading strategies and report results.
 
-<h2>Notable Achievements and Roadblocks</h2>
-- 
-  - [Image Analysis Middleware](https://github.com/joshmadakor1/4chan-Image-Analysis-Middleware-C964) <b><i>(Potentially NSFW)</b></i>
-- <b>PowerShell</b>
-  - [Windows EventLog: Failed RDP Logins Source IP to full GeoData Conversion](https://github.com/joshmadakor1/Sentinel-Lab)
-  - [JWipe (Disk Wiping Utility)](https://github.com/joshmadakor1/Jwipe.PowerShell)
-  - [Active Directory Bulk User Creation](https://github.com/joshmadakor1/AD_PS)
-  - [FIM (File Integrity Monitor)](https://github.com/joshmadakor1/PowerShell-Integrity-FIM)
-- <b>C# (.NET Desktop Applications)</b>
-  - [Ransomware Proof of Concept (Encrypter)](https://github.com/joshmadakor1/EncrypterPOC)
-  - [Ransomware Proof of Concept (Decrypter)](https://github.com/joshmadakor1/DecrypterPOC)
-  - [Keylogger with Email Capability](https://github.com/joshmadakor1/Key-Logger-With-Email)
+ <h2>Notable Achievement and Roadblocks</h2>
+ 
+- <b>Validation of Backtesting Results</b>
+  - Team was tasked with validating results of backtesting.py with those our industry sponsor was able to get from another library.
+    - Motivation: backtesting.py offered performance improvements over the tool previously used.
+    - Challenges:
+      - The team had access to results, but not the source code of the existing backtester.
+    - Result:
+      - We were able to get reliable results that were consistently within an acceptable margin of the results our sponsor was producing.
+      - This was mainly due to the correction of warm-up period problems that were occurring as we neared the edge of historical data that yfinance offers.
+
+- <b>Validation of Backtesting Results</b>
 - <b>Python</b>
   - [Package Delivery Application (Datastructures and Algorithms Demo)](https://github.com/joshmadakor1/Package-Delivery-Pathfinding-Algorithm)
 
