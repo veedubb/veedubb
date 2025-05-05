@@ -26,9 +26,12 @@
   - Using OpenMP to quantify the benefits of multithreading/multiprocessing
   - Capitalizing on the efficiency of parallelization via Monte Carlo trials to assist in determining the probability of an event occurring using random parameters through collection of observed probabilities.
   - Determining theoretical maximum speedup that can be achieved on a given program.
+  - Hardware acceleration using CUDA.
+  - Distributing workload across hosts using Message Passing Interface (MPI).
 - <b>Cloud Application Development</b>
   - Using Google App Engine to deploy cloud-based applications.
   - Developing RESTful APIs meeting the specifications of provided API documentation.
+  - OAuth 2.0 integration to RESTful APIs.
 
 <!--
 **veedubb/veedubb** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
