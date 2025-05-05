@@ -26,30 +26,35 @@
     - Result:
       - We were able to get reliable results that were consistently within an acceptable margin of the results our sponsor was producing.
       - This was mainly due to the correction of warm-up period problems that were occurring as we neared the edge of historical data that yfinance offers.
+- <b>Application Breaking Dependency Issues</b>
+  - Team faced significant challenge after Yahoo Finance changed their API, which broke the yfinance library for large swaths of users.
+  - Challenges:
+    - Upgrading the library (recommended fix) caused dependency errors in other libraries.
+    - Leaving the library at the previously working version meant that we could not fetch historical data for any tickers.
+  - Result:
+    - The team upgraded the library to the latest version in order to correct the data ingestion issues.
+    - We worked through each individual error that this caused, refactoring various pieces of the application and upgrading other dependencies to allow the application to continue working.
+- <b>Results Display</b>
+  - Team was tasked with creating a more modern and valuable view into the results of the optimizations.
+    - Motivation:
+      - Previous iterations of the application provided very basic charts and output pertaining to the results of running the algorithm/problem against historical data.
+      - In addition, this output was generally limited to small subsets of the resultant optimizations
+    - Challenges:
+      - The existing library that was used by previous teams did not offer all the functionality that the team needed to meet the sponsor's requirements.
+    - Result:
+      - The team moved to a new library as part of the migration from a monolith to an MVC application and was able to produce output meeting the sponsor's requirements.
+- <b>Migration from Monolith to MVC</b>
+  - Previous teams had developed the web application as a monolith, our team was tasked with creating a more distributed architecture for the application.
+    - Motivation:
+      - Since these optimizations can be quite compute intensive, distributing the workload can provide a more responsive experience for users and decrease things like wait time.
+      - In addition, our sponsor wanted to transition to a cloud-hosted solution for easy access anywhere.
+    - Challenges:
+      - Previous teams had built project as a monolith - breaking this apart into various subcomponents required a deep understanding of what the application was doing "under-the-hood".
+      - Compartmentalizing various components meant that the team would need to "specialize" in specific areas rather than working on the project more wholly.
+    - Result:
+      - The project was restructured to an MVC architecture, where the front end communicates with a controller which orchestrates various model operations (database and calculations).
+      - Notable performance improvements over the existing monolith, especially concerning compute time for strategy optimization.
 
-- <b>Validation of Backtesting Results</b>
-- <b>Python</b>
-  - [Package Delivery Application (Datastructures and Algorithms Demo)](https://github.com/joshmadakor1/Package-Delivery-Pathfinding-Algorithm)
-
-<h2>📺 Popular YouTube Videos</h2>
-
-- [How to get into Cybersecurity Starting From Zero](https://www.youtube.com/watch?v=a83ASGn_V_s)
-- [A Day in the Life of a Cybersecurity Anayst](https://www.youtube.com/watch?v=uHy3oM7NnoU)
-- [How to Create a KeyLogger (C#)](https://www.youtube.com/watch?v=N-L9hklSlNk)
-- [Ransomware Demonstration (C#)](https://www.youtube.com/watch?v=OfvdQeh79s0)
-- [Is WGU Legit?](https://www.youtube.com/watch?v=E2MwRWxDBkA)
-
-<h2> 🤳 Connect with me:</h2>
-
-[<img align="left" alt="JoshMadakor | YouTube" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/youtube.svg" />][youtube]
-[<img align="left" alt="JoshMadakor | Twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />][twitter]
-[<img align="left" alt="JoshMadakor | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
-[<img align="left" alt="JoshMadakor | Instagram" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />][instagram]
-
-[twitter]: https://twitter.com/joshmadakor
-[youtube]: https://www.youtube.com/c/joshmadakor
-[instagram]: https://www.instagram.com/joshmadakor/
-[linkedin]: https://linkedin.com/in/joshmadakor
 
 <!--
 **joshmadakor1/joshmadakor1** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
